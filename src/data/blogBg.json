@@ -1,0 +1,15 @@
+{
+  "images": [{
+      "credit": "Photo by Clark Tibbs on Unsplash",
+      "path": "/img/randomize-blog-bg/clark-tibbs-oqStl2L5oxI-unsplash.jpg"
+    },
+    {
+      "credit": "Photo by LUM3N on Unsplash",
+      "path": "/img/randomize-blog-bg/lum3n--RBuQ2PK_L8-unsplash.jpg"
+    },
+    {
+      "credit": "Photo by Freddy Castro on Unsplash",
+      "path": "/img/randomize-blog-bg/freddy-castro-u3ajSXhZM_U-unsplash.jpg"
+    }
+  ]
+}

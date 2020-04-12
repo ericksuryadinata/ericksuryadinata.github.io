@@ -1,21 +1,41 @@
 import React from "react"
-import { Link } from "gatsby"
+import classNames from "classnames"
+import withStyles from "@material-ui/core/styles/withStyles"
+import Layout from "components/Layout"
+import SEO from "components/SEO"
+import Parallax from "components/Parallax/Parallax.jsx"
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
+import About from "components/LandingPage/About.jsx"
+import Blog from "components/LandingPage/Blog.jsx"
+import landingPageStyle from "assets/jss/material-kit-react/pages/landingPage/landingPageStyle.jsx"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const IndexPage = props => {
+  const { classes } = props
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Parallax filter image="./img/landing-page.jpg">
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>Hai, Salam Kenal !</h1>
+              <h4>
+                Selamat datang di blog pribadi saya, yang berisikan catatan
+                perjalanan belajar saya di dunia teknologi.
+              </h4>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classes.container}>
+          <About />
+          <Blog />
+        </div>
+      </div>
+    </Layout>
+  )
+}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default withStyles(landingPageStyle)(IndexPage)

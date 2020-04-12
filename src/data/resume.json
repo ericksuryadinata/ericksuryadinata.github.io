@@ -1,0 +1,245 @@
+{
+  "contact": {
+    "phone": "+62-822-5790-6642",
+    "email": "ericksuryadinata@gmail.com",
+    "website": "https://ericksuryadinata.gitlab.io",
+    "location": "Surabaya, Jawa Timur, Indonesia"
+  },
+  "skills": [{
+      "title": "General",
+      "type": "percent",
+      "subskills": [{
+          "name": "Project Management",
+          "percent": 85
+        },
+        {
+          "name": "Dev Ops",
+          "percent": 80
+        },
+        {
+          "name": "Backend Development",
+          "percent": 95
+        },
+        {
+          "name": "Data Science",
+          "percent": 85
+        },
+        {
+          "name": "Artificial Intelligence",
+          "percent": 80
+        },
+        {
+          "name": "UI",
+          "percent": 85
+        },
+        {
+          "name": "UX",
+          "percent": 75
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "type": "percent",
+      "subskills": [{
+          "name": "Javascript",
+          "percent": 90
+        },
+        {
+          "name": "Java",
+          "percent": 80
+        },
+        {
+          "name": "Python",
+          "percent": 70
+        },
+        {
+          "name": "C#",
+          "percent": 70
+        },
+        {
+          "name": "PHP",
+          "percent": 90
+        },
+        {
+          "name": "HTML",
+          "percent": 90
+        },
+        {
+          "name": "SCSS",
+          "percent": 70
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "type": "tag",
+      "subskills": [{
+          "name": "React"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Micronaut"
+        },
+        {
+          "name": "Node"
+        },
+        {
+          "name": "AdonisJS"
+        },
+        {
+          "name": "Express"
+        },
+        {
+          "name": "Gatsby"
+        },
+        {
+          "name": "Docsify"
+        },
+        {
+          "name": "Django"
+        },
+        {
+          "name": "Next"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Codeigniter"
+        }
+      ]
+    },
+    {
+      "title": "Software",
+      "type": "tag",
+      "subskills": [{
+          "name": "Docker"
+        },
+        {
+          "name": "Trello"
+        },
+        {
+          "name": "Nginx"
+        },
+        {
+          "name": "CI/CD"
+        },
+        {
+          "name": "Linux"
+        },
+        {
+          "name": "VS Code"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "type": "tag",
+      "subskills": [{
+          "name": "Postgresql"
+        },
+        {
+          "name": "Mongodb"
+        },
+        {
+          "name": "Cockroach db"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "Elastic Search"
+        },
+        {
+          "name": "Mysql"
+        },
+        {
+          "name": "Sqlite3"
+        }
+      ]
+    }
+  ],
+  "summary": "\"Geek\" teknologi dengan skill dari berbagai bidang IT. Membangun produk dari awal, melihat hal dari berbagai sisi, dan membuatnya menjadi sesuatu yang spesial. Dengan skill dan pengalaman yang saya miliki selama 3 tahun, saya membantu perusahaan dari ide produk hingga digunakan. Saya mendesain dan membangun solusi yang dapat dikembangkan lebih lanjut, mengimplentasikan proses yang cocok dengan perusahaan, membangun tim yang menghasilkan produk",
+  "education": [{
+      "institution": "Universitas 17 Agustus 1945 Surabaya",
+      "degree": "Sarjana Komputer",
+      "start": "2015",
+      "end": "2019"
+    },
+    {
+      "institution": "SMA Negeri 6 Surabaya",
+      "degree": "IPA",
+      "start": "2010",
+      "end": "2013"
+    }
+  ],
+  "experience": [{
+      "role": "Software Engineer / Backend Developer",
+      "company": "PT. Kasir Pintar Internasional",
+      "description": "Melakukan re-code dari framework php ke nodejs, melakukan integrasi ke pihak ketiga, menulis dokumentasi",
+      "start": "04/2019",
+      "end": "02/2020"
+    },
+    {
+      "role": "Web Developer",
+      "company": "Aksamedia",
+      "description": "Implementasi sistem dari requirements yang telah ditentukan, melakukan bug fixing terhadap sistem yang telah berjalan",
+      "start": "08/2018",
+      "end": ""
+    },
+    {
+      "role": "Maintainer Freelance",
+      "company": "CV. MOS INDONESIA",
+      "description": "Melakukan perbaikan komputer, laptop. Membuat topologi jaringan dan mengimplentasikannya",
+      "start": "08/2015",
+      "end": "03/2019"
+    },
+    {
+      "role": "Data Entry",
+      "company": "PT. Reycom Document Solution",
+      "description": "Melakukan entry data sesuai dokumen yang ada",
+      "start": "10/2013",
+      "end": "03/2016"
+    }
+  ],
+  "social": [{
+      "service": "youtube",
+      "url": "https://www.youtube.com/c/ericksuryadinata"
+    },
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/erick-surya-dinata/"
+    },
+    {
+      "service": "twitter",
+      "url": "https://twitter.com/erick_surya_d"
+    },
+    {
+      "service": "github",
+      "url": "https://github.com/ericksuryadinata"
+    },
+    {
+      "service": "gitlab",
+      "url": "https://gitlab.com/ericksuryadinata"
+    },
+    {
+      "service": "facebook",
+      "url": "https://www.facebook.com/proesd"
+    },
+    {
+      "service": "instagram",
+      "url": "https://www.instagram.com/ericksuryad"
+    }
+  ],
+  "role": "Back-end Developer",
+  "projects": [{
+    "name": "Node Nicepay",
+    "company": "Open source",
+    "description": "Node Nicepay merupakan SDK untuk memudahkan komunikasi dengan API Nicepay",
+    "link": "https://ericksuryadinata.gitlab.io/node-nicepay/"
+  }],
+  "fullname": "Erick Surya Dinata"
+}
