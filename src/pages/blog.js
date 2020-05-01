@@ -17,7 +17,7 @@ class Blog extends Component {
     return (
       <Layout>
         <SEO title="Blog" />
-        <Parallax small filter image="./img/blog-bg.jpg">
+        <Parallax small filter image="./img/blog-bg.webp">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>

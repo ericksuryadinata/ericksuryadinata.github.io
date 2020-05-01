@@ -3,12 +3,12 @@ module.exports = {
     title: `Erick Surya Dinata`,
     description: `Erick Surya Dinata Official Website & Blog`,
     author: `Erick Surya Dinata <ericksuryadinata@gmail.com>`,
-    image: `erick.jpg`,
+    image: `erick.webp`,
     social: {
       twitter: "@erick_surya_d",
       fbAppId: "",
     },
-    url: "http://localhost:8087/"
+    url: "http://localhost:9000/"
   },
   plugins: [
     `gatsby-transformer-json`,

@@ -6,13 +6,13 @@ import { FaFacebook, FaGitlab, FaGithub } from "react-icons/fa"
 import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Button from "components/Custom/Button.jsx"
-
+import resume from "data/resume.json"
 import aboutStyle from "assets/jss/material-kit-react/pages/landingPage/aboutStyle.jsx"
 
 class About extends Component {
   render() {
     const { classes } = this.props
-
+    const social = resume.social.filter(social => social.service === 'facebook' || social.service === 'gitlab' || social.service === 'github')
     return (
       <div className={classes.section}>
         <GridContainer justify="center">
@@ -32,33 +32,21 @@ class About extends Component {
               <div>
                 <h3 className={classes.title}>Erick Surya Dinata</h3>
                 <h6 className={classes.job}>Back-End Developer</h6>
-                <Button
-                  justIcon
-                  link
-                  className={classes.margin5}
-                  href="https://www.google.com"
-                  target="_blank"
-                >
-                  <FaFacebook />
-                </Button>
-                <Button
-                  justIcon
-                  link
-                  className={classes.margin5}
-                  href="https://www.google.com"
-                  target="_blank"
-                >
-                  <FaGithub />
-                </Button>
-                <Button
-                  justIcon
-                  link
-                  className={classes.margin5}
-                  href="https://www.google.com"
-                  target="_blank"
-                >
-                  <FaGitlab />
-                </Button>
+                {
+                  social && social.map(item => (
+                    <Button
+                      justIcon
+                      link
+                      className={classes.margin5}
+                      href={item.url}
+                      target="_blank"
+                    >
+                      {
+                        item.service === 'facebook' ? <FaFacebook /> : item.service === 'gitlab' ? <FaGitlab /> : item.service === 'github' ? <FaGithub /> : null
+                      }
+                    </Button>
+                  ))
+                }
               </div>
             </div>
           </GridItem>

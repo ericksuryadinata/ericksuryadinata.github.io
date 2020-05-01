@@ -3,7 +3,7 @@ templateKey: blog
 path: "/blog"
 category: "tutorial"
 tags: ["tag1"]
-image: /img/post-ketiga.jpg
+image: /img/post-ketiga.webp
 title: "Post Ketiga"
 date: "2020-03-02T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."

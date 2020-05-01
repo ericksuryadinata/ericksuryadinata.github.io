@@ -26,7 +26,7 @@ class Resume extends Component {
     return (
       <Layout>
         <SEO title="Resume" />
-        <Parallax small filter image="./img/resume.jpg">
+        <Parallax small filter image="./img/resume.webp">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>

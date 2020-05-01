@@ -10,6 +10,7 @@ import {
   FaBehance,
   FaDribbble,
   FaAngellist,
+  FaGitlab
 } from "react-icons/fa"
 import resumeStyle from "assets/jss/material-kit-react/pages/resumePage/resumeStyle.jsx"
 
@@ -35,6 +36,8 @@ class Icon extends Component {
         return <FaDribbble size={32} className={classes.icon} />
       case "angellist":
         return <FaAngellist size={32} className={classes.icon} />
+      case "gitlab":
+        return <FaGitlab size={32} className={classes.icon} />
       default:
         return null
     }

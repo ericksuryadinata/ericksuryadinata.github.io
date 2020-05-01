@@ -15,7 +15,7 @@ const IndexPage = props => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Parallax filter image="./img/landing-page.jpg">
+      <Parallax filter image="./img/landing-page.webp">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
