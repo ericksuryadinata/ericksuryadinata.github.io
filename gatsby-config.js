@@ -5,10 +5,10 @@ module.exports = {
     author: `Erick Surya Dinata <ericksuryadinata@gmail.com>`,
     image: `erick.webp`,
     social: {
-      twitter: "@erick_surya_d",
+      twitter: "@ericksuryad",
       fbAppId: "",
     },
-    url: "http://localhost:9000/"
+    url: "http://localhost:8000/"
   },
   plugins: [
     `gatsby-transformer-json`,
@@ -141,8 +141,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `ericksuryadinata`,
+        short_name: `esd`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
